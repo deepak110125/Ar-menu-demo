@@ -1,0 +1,7 @@
+{
+  "name": "Jade Dragon Noodles v27 pro",
+  "description": "Interactive digital menu application for Jade Dragon Noodles featuring detailed dish information and AR preview capabi",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
