@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { ChevronUp, ChevronDown, Plus, Minus, Star, Heart } from 'lucide-react';
 import { MenuItem, SiteSettings } from '../types';
@@ -67,7 +68,7 @@ const MenuItemCard: React.FC<MenuItemCardProps> = ({
               <div className="block-reveal-block"></div>
               <div className="flex items-center gap-1.5 block-reveal-content">
                 <h3 
-                    className="font-semibold text-slate-800 text-base leading-tight truncate"
+                    className="font-semibold text-slate-800 text-base leading-tight card-title"
                     style={{ fontFamily: fontSettings?.itemNameFont }}
                 >
                     {item.name}
